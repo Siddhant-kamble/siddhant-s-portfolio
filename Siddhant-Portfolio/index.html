@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddhant | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="loader">
+    <div class="spinner"></div>
+</div>
+    <div id="particles-js"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <h2 class="logo">Siddhant</h2>
+        <button id="modeToggle">🌙</button>
+        <div class="menu-toggle" id="menuToggle">☰</div>
+        <ul>
+            <li><a href="#index">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <h1>Hello, I'm Siddhant 👋</h1>
+        <p>Aspiring Web Developer</p>
+        <button id="scrollBtn">View My Work</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>I am learning HTML, CSS and JavaScript. I love building websites and improving my coding skills.</p>
+        <h3>My Skills</h3>
+
+        <div class="skill">
+            <p>HTML</p>
+            <div class="skill-bar">
+                <div class="skill-fill html"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <p>CSS</p>
+            <div class="skill-bar">
+                <div class="skill-fill css"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <p>JavaScript</p>
+            <div class="skill-bar">
+                <div class="skill-fill js"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <div class="projects-container">
+
+        <div class="project-card">
+            <h3>YouTube Clone</h3>
+            <p>HTML & CSS clone project.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Image Slider</h3>
+            <p>CSS based slider animation.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Quiz Website</h3>
+            <p>Simple interactive quiz using JS.</p>
+        </div>
+
+    </div>
+
+    <!-- Contact Section -->
+    <h2>Contact Me</h2>
+
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+
+    <p id="formMessage"></p>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <footer>
+    <p>© 2026 Siddhant | All Rights Reserved</p>
+</footer>
+</body>
+
+</html>
